@@ -1,0 +1,170 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: rgba(223, 173, 252, 0.568);
+}
+
+.main-box {
+    background-color: white;
+    height: 550px;
+    width: 950px;
+    margin-left: 250px;
+    margin-top: 65px;
+    border-radius: 60px;
+    display: flex;
+    box-shadow: 0px 0px 8px 8px rgba(128, 128, 128, 0.295);
+}
+
+/* login design code */
+
+.login {
+    height: 100%;
+    width: 50%;
+    border-top-left-radius: 60px;
+    border-bottom-left-radius: 60px;
+}
+
+.login-heading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2.5rem;
+    font-weight:bolder ;
+    margin-top: 68px;
+}
+
+.login-method {
+    margin-top: 28px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon {
+    font-size: 1rem;
+    padding: 10px 12px;
+    margin-right: 28px;
+    background-color: white;
+    border: none;
+    border: 2px solid rgba(128, 128, 128, 0.377);
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+.google {
+    margin-left: 22px;
+}
+
+.other-method {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 16px;
+    font-size: 1.28rem;
+}
+
+.input-name, .input-email, .input-password {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.name, .email, .password {
+    margin-top: 20px;
+    width: 320px;
+    height: 45px;
+    padding-left: 18px;
+    padding-right: 18px;
+    background-color: rgba(167, 167, 167, 0.212);
+    border: none;
+    border-radius: 7px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.1rem;
+    outline: none;
+}
+
+.signin {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 18px;
+}
+
+.signin-button {
+    background-color: rgba(180, 76, 184, 0.863);
+    border: 2px solid white;
+    border-radius: 12px;
+    color: black;
+    padding: 16px 72px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    color: white;
+    cursor: pointer;
+}
+
+/* sinup design code */
+
+.signup{
+    height: 100%;
+    width: 50%;
+    background-image: linear-gradient(to right, rgba(206, 102, 209, 0.863), rgb(136, 16, 136));
+    border-top-right-radius: 60px;
+    border-bottom-right-radius: 60px;
+    border-top-left-radius: 150px;
+    border-bottom-left-radius: 110px;
+    box-shadow: 0px 0px 5px 5px rgba(225, 128, 255, 0.247);;
+}
+
+.content {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: 100px;
+    margin-top: 160px;
+    font-size: 50px;
+    font-weight: bolder;
+    color: white;
+}
+
+.cont-one {
+    margin-top: 22px;
+}
+
+.cont-two {
+    margin-top: 8px;
+}
+
+.cont-one, .cont-two {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight:bold ;
+    font-size: 1.2rem;
+    text-shadow: 2px 4px 4px rgba(56, 56, 56, 0.6);
+}
+
+.signup-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 44px;
+}
+
+.button-signup {
+    background-color: rgba(163, 70, 167, 0.863);
+    border: 2px solid white;
+    border-radius: 12px;
+    color: black;
+    padding: 16px 72px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    color: white;
+    cursor: pointer;
+}
